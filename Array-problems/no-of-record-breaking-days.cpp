@@ -12,7 +12,7 @@ int main()
 
     if (n == 1)
     {
-        cout << "1";
+        cout << "1" << endl;
         return 0;
     }
 
@@ -27,7 +27,8 @@ int main()
         maximum = max(maximum, arr[i]);
     }
 
-    cout << count;
+    cout << count << endl;
 
     return 0;
 }
+
