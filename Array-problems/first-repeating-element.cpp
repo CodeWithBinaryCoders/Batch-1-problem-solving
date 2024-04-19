@@ -27,9 +27,9 @@ int main()
     }
 
     if (minIndex == INT_MAX)
-        cout << "-1";
+        cout << "-1" << endl;
     else
-        cout << minIndex;
+        cout << minIndex << endl;
 
     return 0;
 }
